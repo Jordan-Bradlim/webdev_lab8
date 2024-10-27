@@ -1,0 +1,39 @@
+#navbar-container{
+    background-color: blue;          
+    overflow: hidden;                     
+    float: left;                                  
+    width: 100%;                            
+    position: relative;                     
+                  
+    margin: 0;                                 
+    padding: 0;                                 
+                  
+    display: block;
+
+    padding: 10px 20px;
+    color: #fff;
+
+}
+
+#navbar-container li{
+    list-style-type: none;   
+}
+
+#sidebar-container{
+    position: fixed;
+    right:0%;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+   
+}
+
+#sidebar-container li{
+    list-style-type: none;   
+}
